@@ -1,0 +1,12 @@
+var filterStrength = 20;
+var frameTime = 0, lastLoop = new Date, thisLoop;
+var bgCanvas = fgCanvas = bgCTX = fgCTX = null;
+var PADDLE_WIDTH = 40;
+var PADDLE_HEIGHT = 10;
+var then = null;
+var engine = null;
+var background = null;
+var paddles = null;
+var mouse = 0;
+var keys = {};
+var story = "   IN MANY YEARS, HUMANITY WERE\nSAFE. THEN, HYPERSPLODE ABOUT.\nTHREE PADDLES WERE THOUGHT\nIMPREGNABLE... WILL YOU SAVE OR\nWILL YOU HYPERSPLODE\n          \n  THE ANSWER IS YES YOU WILL\nSAVE IT";
